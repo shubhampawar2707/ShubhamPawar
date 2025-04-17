@@ -1,0 +1,70 @@
+// Dark theme styles
+body.dark-theme {
+  background-color: #1a1a2e;
+  color: #fff;
+
+  .navbar {
+    background: #16213e;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+
+    .nav-brand a {
+      color: #fff;
+    }
+
+    .nav-links a {
+      color: #fff;
+
+      &:hover, &.active {
+        color: #4dabf7;
+      }
+    }
+  }
+
+  .hero-section {
+    background: #16213e;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .greeting {
+    color: #fff;
+  }
+
+  .description {
+    color: #adb5bd;
+  }
+
+  .role-text {
+    background: rgba(77, 171, 247, 0.1);
+  }
+
+  .role-tag {
+    background: rgba(77, 171, 247, 0.1);
+    color: #4dabf7;
+
+    &:hover {
+      background: #4dabf7;
+      color: #fff;
+    }
+  }
+
+  .skill-category {
+    background: #16213e;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .skill-item {
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  .skill-name {
+    color: #fff;
+  }
+
+  .section-title {
+    color: #fff;
+  }
+
+  .section-description {
+    color: #adb5bd;
+  }
+} 
