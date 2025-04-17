@@ -138,6 +138,80 @@
             }
           }
         }
+        
+        .education-section {
+          margin: 1.5rem 0;
+          padding-top: 1.5rem;
+          border-top: 1px solid #e9ecef;
+          
+          h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #2d3436;
+            margin-bottom: 1.2rem;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+          }
+          
+          .education-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1.2rem;
+            padding: 0.8rem;
+            border-radius: 8px;
+            background: #f8f9fa;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            
+            &:hover {
+              transform: translateY(-3px);
+              box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            }
+            
+            .education-icon {
+              flex: 0 0 40px;
+              height: 40px;
+              background: linear-gradient(45deg, #0984e3, #00b894);
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-right: 1rem;
+              color: white;
+              font-size: 1.2rem;
+            }
+            
+            .education-details {
+              flex: 1;
+              
+              h4 {
+                font-size: 1.1rem;
+                font-weight: 600;
+                color: #2d3436;
+                margin-bottom: 0.3rem;
+                font-family: 'Montserrat', sans-serif;
+              }
+              
+              .institution {
+                font-size: 0.9rem;
+                color: #636e72;
+                margin-bottom: 0.2rem;
+              }
+              
+              .year {
+                font-size: 0.85rem;
+                color: #0984e3;
+                font-weight: 500;
+                margin-bottom: 0.2rem;
+              }
+              
+              .grade {
+                font-size: 0.9rem;
+                color: #00b894;
+                font-weight: 500;
+              }
+            }
+          }
+        }
 
         .cta-button {
           margin-top: 1.5rem;
@@ -223,6 +297,45 @@
               font-size: 1.1rem;
             }
           }
+          
+          .education-section {
+            margin: 2rem 0;
+            padding-top: 1.8rem;
+            
+            h3 {
+              font-size: 1.4rem;
+              margin-bottom: 1.5rem;
+            }
+            
+            .education-item {
+              margin-bottom: 1.5rem;
+              padding: 1rem;
+              
+              .education-icon {
+                flex: 0 0 45px;
+                height: 45px;
+                font-size: 1.3rem;
+              }
+              
+              .education-details {
+                h4 {
+                  font-size: 1.15rem;
+                }
+                
+                .institution {
+                  font-size: 0.95rem;
+                }
+                
+                .year {
+                  font-size: 0.9rem;
+                }
+                
+                .grade {
+                  font-size: 0.95rem;
+                }
+              }
+            }
+          }
 
           .cta-button p {
             padding: 0.8rem 1.5rem;
@@ -282,6 +395,46 @@
               font-size: 1.2rem;
             }
           }
+          
+          .education-section {
+            margin: 2.5rem 0;
+            padding-top: 2rem;
+            
+            h3 {
+              text-align: left;
+              font-size: 1.5rem;
+              margin-bottom: 1.8rem;
+            }
+            
+            .education-item {
+              margin-bottom: 1.8rem;
+              padding: 1.2rem;
+              
+              .education-icon {
+                flex: 0 0 50px;
+                height: 50px;
+                font-size: 1.4rem;
+              }
+              
+              .education-details {
+                h4 {
+                  font-size: 1.2rem;
+                }
+                
+                .institution {
+                  font-size: 1rem;
+                }
+                
+                .year {
+                  font-size: 0.95rem;
+                }
+                
+                .grade {
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
 
           .cta-button p {
             padding: 0.9rem 1.8rem;
@@ -316,6 +469,12 @@
 
             &.highlight {
               font-size: 1.25rem;
+            }
+          }
+          
+          .education-section {
+            h3 {
+              font-size: 1.6rem;
             }
           }
         }
