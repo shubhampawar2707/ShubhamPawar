@@ -5,8 +5,8 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class EmailService {
-  private apiUrl = 'YOUR_EMAIL_API_ENDPOINT'; // You'll need to replace this with your actual email service endpoint
+export class EmailService {private apiUrl = 'https://formspree.io/f/xblonjjg'; // You'll need to replace this with your Formspree ID
+  
 
   constructor(private http: HttpClient) { }
 
