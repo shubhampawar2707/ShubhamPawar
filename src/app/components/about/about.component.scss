@@ -138,12 +138,12 @@
             }
           }
         }
-        
+
         .education-section {
           margin: 1.5rem 0;
           padding-top: 1.5rem;
           border-top: 1px solid #e9ecef;
-          
+
           h3 {
             font-size: 1.3rem;
             font-weight: 600;
@@ -152,7 +152,7 @@
             font-family: 'Montserrat', sans-serif;
             text-align: center;
           }
-          
+
           .education-item {
             display: flex;
             align-items: flex-start;
@@ -161,12 +161,12 @@
             border-radius: 8px;
             background: #f8f9fa;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
-            
+
             &:hover {
               transform: translateY(-3px);
               box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
             }
-            
+
             .education-icon {
               flex: 0 0 40px;
               height: 40px;
@@ -179,10 +179,10 @@
               color: white;
               font-size: 1.2rem;
             }
-            
+
             .education-details {
               flex: 1;
-              
+
               h4 {
                 font-size: 1.1rem;
                 font-weight: 600;
@@ -190,20 +190,20 @@
                 margin-bottom: 0.3rem;
                 font-family: 'Montserrat', sans-serif;
               }
-              
+
               .institution {
                 font-size: 0.9rem;
                 color: #636e72;
                 margin-bottom: 0.2rem;
               }
-              
+
               .year {
                 font-size: 0.85rem;
                 color: #0984e3;
                 font-weight: 500;
                 margin-bottom: 0.2rem;
               }
-              
+
               .grade {
                 font-size: 0.9rem;
                 color: #00b894;
@@ -254,7 +254,7 @@
   }
 }
 
-/* Tablet and larger */
+
 @media (min-width: 576px) {
   .about-container {
     padding: 2rem 1.5rem;
@@ -264,7 +264,7 @@
       margin-bottom: 2.5rem;
 
       h1 {
-        font-size: 2.2rem;
+        font-size: 1.8rem;
         margin-bottom: 1rem;
       }
 
@@ -297,39 +297,39 @@
               font-size: 1.1rem;
             }
           }
-          
+
           .education-section {
             margin: 2rem 0;
             padding-top: 1.8rem;
-            
+
             h3 {
               font-size: 1.4rem;
               margin-bottom: 1.5rem;
             }
-            
+
             .education-item {
               margin-bottom: 1.5rem;
               padding: 1rem;
-              
+
               .education-icon {
                 flex: 0 0 45px;
                 height: 45px;
                 font-size: 1.3rem;
               }
-              
+
               .education-details {
                 h4 {
                   font-size: 1.15rem;
                 }
-                
+
                 .institution {
                   font-size: 0.95rem;
                 }
-                
+
                 .year {
                   font-size: 0.9rem;
                 }
-                
+
                 .grade {
                   font-size: 0.95rem;
                 }
@@ -347,17 +347,17 @@
   }
 }
 
-/* Small desktop and larger */
+
 @media (min-width: 768px) {
   .about-container {
-    padding: 3rem 2rem;
+    padding: 2rem 2rem;
     max-width: 720px;
 
     .about-header {
       margin-bottom: 3rem;
 
       h1 {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
       }
 
       .header-line {
@@ -395,40 +395,40 @@
               font-size: 1.2rem;
             }
           }
-          
+
           .education-section {
             margin: 2.5rem 0;
             padding-top: 2rem;
-            
+
             h3 {
               text-align: left;
               font-size: 1.5rem;
               margin-bottom: 1.8rem;
             }
-            
+
             .education-item {
               margin-bottom: 1.8rem;
               padding: 1.2rem;
-              
+
               .education-icon {
                 flex: 0 0 50px;
                 height: 50px;
                 font-size: 1.4rem;
               }
-              
+
               .education-details {
                 h4 {
                   font-size: 1.2rem;
                 }
-                
+
                 .institution {
                   font-size: 1rem;
                 }
-                
+
                 .year {
                   font-size: 0.95rem;
                 }
-                
+
                 .grade {
                   font-size: 1rem;
                 }
@@ -446,7 +446,7 @@
   }
 }
 
-/* Medium desktop and larger */
+
 @media (min-width: 992px) {
   .about-container {
     max-width: 960px;
@@ -461,7 +461,7 @@
       .about-text {
         .text-card {
           h2 {
-            font-size: 2rem;
+            font-size: 1.8rem;
           }
 
           .text-content p {
@@ -471,7 +471,7 @@
               font-size: 1.25rem;
             }
           }
-          
+
           .education-section {
             h3 {
               font-size: 1.6rem;
@@ -483,14 +483,14 @@
   }
 }
 
-/* Large desktop */
+
 @media (min-width: 1200px) {
   .about-container {
     max-width: 1140px;
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
 
     .about-header h1 {
-      font-size: 3rem;
+      font-size: 2rem;
     }
 
     .about-content {
@@ -499,4 +499,4 @@
       }
     }
   }
-} 
+}

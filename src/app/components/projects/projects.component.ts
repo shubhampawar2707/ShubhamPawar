@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent {
-  // Add any component logic here
-} 
+}

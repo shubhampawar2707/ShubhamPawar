@@ -133,7 +133,7 @@
   }
 }
 
-// Responsive adjustments
+
 @media (max-width: 768px) {
   .contact-container {
     padding: 1.5rem 1rem;
@@ -259,7 +259,7 @@
 .container {
   padding: 2rem;
   max-width: 1200px;
-  margin: 0 auto;
+  margin-top: 70px;
 }
 
 .section-title {
@@ -295,7 +295,7 @@ input, textarea {
 button {
   position: relative;
   overflow: hidden;
-  
+
   &::after {
     content: '';
     position: absolute;
@@ -320,7 +320,7 @@ button {
   }
 }
 
-// Status message animations
+
 @keyframes slideIn {
   from {
     transform: translateY(-10px);
@@ -336,7 +336,6 @@ button {
   animation: slideIn 0.3s ease;
 }
 
-// Responsive adjustments
 @media (max-width: 768px) {
   .container {
     padding: 1rem;
@@ -360,4 +359,4 @@ button {
   .card {
     padding: 1rem;
   }
-} 
+}

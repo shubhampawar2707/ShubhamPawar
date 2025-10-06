@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./education.component.scss']
 })
 export class EducationComponent {
-  // Add any component logic here
-} 
+}

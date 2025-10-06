@@ -33,4 +33,4 @@ export class SkillsComponent {
       { name: 'VS Code', icon: 'fas fa-code' }
     ]
   };
-} 
+}

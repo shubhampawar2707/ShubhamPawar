@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./experience.component.scss']
 })
 export class ExperienceComponent {
-  // Add any component logic here
-} 
+}
