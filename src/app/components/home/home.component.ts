@@ -9,7 +9,7 @@ export class HomeComponent implements OnInit {
   roles: string[] = [
     'Software Engineer',
     'Java Developer',
-    'Full Stack Developer'
+    'FullStack Developer'
   ];
 
   currentRoleIndex: number = 0;
@@ -63,7 +63,7 @@ export class HomeComponent implements OnInit {
   }
 
   downloadCV(): void {
-    const cvPath = 'assets/Shubham_Resume_New_InAdd_New (1).pdf';
+    const cvPath = 'assets/Shubham_Pawar_React (3).pdf';
 
 
     const link = document.createElement('a');
