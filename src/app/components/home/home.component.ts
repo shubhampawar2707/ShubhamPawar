@@ -63,7 +63,7 @@ export class HomeComponent implements OnInit {
   }
 
   downloadCV(): void {
-    const cvPath = 'assets/Shubham_Pawar_React (3).pdf';
+    const cvPath = 'assets/Shubham_Pawar_Angular.pdf';
 
 
     const link = document.createElement('a');
